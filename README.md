@@ -1,2 +1,1 @@
-multiAgentes
-============
+Exercícios realizados do paradigma multiagente.
