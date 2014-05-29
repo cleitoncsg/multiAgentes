@@ -1,0 +1,12 @@
+package hello;
+
+import jade.core.Agent; 
+
+public class OlaMundo extends Agent { 
+	
+	 private void setup() { 
+		 System.out.println("Alo Mundo! "); 
+		 //System.out.println("Meu nome: "+ getLocalName()); 
+	 } 
+ 
+}
