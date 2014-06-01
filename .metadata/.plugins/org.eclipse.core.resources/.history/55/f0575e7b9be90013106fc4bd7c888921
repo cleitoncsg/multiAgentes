@@ -10,13 +10,13 @@ public class CompradorDeLivros extends Agent{
 		
 		System.out.println("Olá! Sou o comprador"+getLocalName()+"Quero comprar!");
 		//Captura o título do livro que comprará, que foi passado como argumento de inicialiação
-		Object[] argumento = getArguments();
+		Object[] args = getArguments();
 		
-		if(argumento!= null && argumento.length > 0){
-			//argumento[0] = "Pequeno Principe";
-			//argumento[1] = "É só isso";
+		if(args!= null && args.length > 0){
+			args[0] = "Pequeno Principe";
+			args[1] = "É só isso";
 			
-			livrosComprar = (String) argumento[0];
+			livrosComprar = (String) args[0];
 			System.out.println("Pretendo comprar o livro"+livrosComprar);
 		}
 		else{
@@ -30,4 +30,13 @@ public class CompradorDeLivros extends Agent{
 		System.out.println("Agente comprador+"+getAID().getName()+"está finalizado!");
 		
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

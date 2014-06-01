@@ -30,4 +30,13 @@ public class CompradorDeLivros extends Agent{
 		System.out.println("Agente comprador+"+getAID().getName()+"está finalizado!");
 		
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
