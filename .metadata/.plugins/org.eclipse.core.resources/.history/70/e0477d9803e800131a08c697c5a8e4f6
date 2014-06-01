@@ -1,0 +1,30 @@
+package hello;
+
+public class Ru {
+	
+	public static void main(String args[]){
+		Thread.currentThread().setPriority(Thread.MAX_PRIORITY);
+		
+		Pessoa aluno = new Pessoa(Thread.MIN_PRIORITY);
+		Pessoa professor = new Pessoa(Thread.NORM_PRIORITY);
+		Pessoa pne = new Pessoa(Thread.MAX_PRIORITY);
+		
+		aluno.start();
+		professor.start();
+		pne.start();
+		
+		try {
+			Thread.sleep(1000);
+		} catch (Exception e) {
+		
+		}
+		
+		aluno.stop();
+		professor.stop();
+		pne.stop();
+		
+		System.out.println(aluno.clique);
+		System.out.println(professor.clique);
+		System.out.println(pne.clique);
+	}
+}
