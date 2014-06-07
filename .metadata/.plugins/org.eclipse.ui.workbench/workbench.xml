@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
-<window height="744" maximized="true" width="1024" x="65" y="24">
+<window height="1387" maximized="true" width="899" x="246" y="24">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -30,13 +30,33 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OlaMundo.java" partName="OlaMundo.java" path="/home/cleiton/github/multiAgentes/primeiroProjetoEmMultiAgentes/src/hello/OlaMundo.java" title="OlaMundo.java" tooltip="primeiroProjetoEmMultiAgentes/src/hello/OlaMundo.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/primeiroProjetoEmMultiAgentes/src/hello/OlaMundo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="137" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="197" selectionOffset="15" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CompradorDeLivros.java" partName="CompradorDeLivros.java" path="/home/cleiton/github/multiAgentes/primeiroProjetoEmMultiAgentes/src/miniLeilao/CompradorDeLivros.java" title="CompradorDeLivros.java" tooltip="primeiroProjetoEmMultiAgentes/src/miniLeilao/CompradorDeLivros.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/primeiroProjetoEmMultiAgentes/src/miniLeilao/CompradorDeLivros.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GuestAgent.java" partName="GuestAgent.java" path="/home/cleiton/github/multiAgentes/primeiroProjetoEmMultiAgentes/src/festa/GuestAgent.java" title="GuestAgent.java" tooltip="primeiroProjetoEmMultiAgentes/src/festa/GuestAgent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/primeiroProjetoEmMultiAgentes/src/festa/GuestAgent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1761" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HostAgent.java" partName="HostAgent.java" path="/home/cleiton/github/multiAgentes/primeiroProjetoEmMultiAgentes/src/festa/HostAgent.java" title="HostAgent.java" tooltip="primeiroProjetoEmMultiAgentes/src/festa/HostAgent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/primeiroProjetoEmMultiAgentes/src/festa/HostAgent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1761" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HostUIFrame.java" partName="HostUIFrame.java" path="/home/cleiton/github/multiAgentes/primeiroProjetoEmMultiAgentes/src/festa/HostUIFrame.java" title="HostUIFrame.java" tooltip="primeiroProjetoEmMultiAgentes/src/festa/HostUIFrame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/primeiroProjetoEmMultiAgentes/src/festa/HostUIFrame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11319" selectionTopPixel="3557"/>
 </editor>
 </editors>
 <views>
@@ -45,6 +65,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="261" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -107,7 +130,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -246,7 +269,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22713178" ratioLeft="293" ratioRight="997" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.1875969" ratioLeft="242" ratioRight="1048" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7604977" ratioLeft="489" ratioRight="154" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -279,168 +302,168 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/OlaMundo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/primeiroProjetoEmMultiAgentes/MTPs-Main-Container.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/primeiroProjetoEmMultiAgentes/APDescription.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/Aluno.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/Servidor.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/Pne.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/Professor.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/Pessoa.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/Ru.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/Pessoa.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/OlaMundo.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/Pessoa.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/miniLeilao/CompradorDeLivros.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/festa/GuestAgent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/festa/HostAgent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/festa/HostUIFrame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/hello/OlaMundo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/primeiroProjetoEmMultiAgentes/src/miniLeilao/CompradorDeLivros.java"/>
 </editors>
-<item historyLabel="OlaMundo.java" index="0">
-<position info="not_deleted" x="112" y="0"/>
-</item>
-<item historyLabel="MTPs-Main-Container.txt" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="OlaMundo.java" index="0">
-<position info="not_deleted" x="112" y="0"/>
-</item>
-<item historyLabel="APDescription.txt" index="2">
-<position info="not_deleted" x="205" y="0"/>
-</item>
-<item historyLabel="OlaMundo.java" index="0">
-<position info="not_deleted" x="112" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position/>
-</item>
-<item historyLabel="Servidor.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position/>
-</item>
-<item historyLabel="Pne.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position/>
-</item>
-<item historyLabel="Servidor.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position/>
-</item>
-<item historyLabel="Servidor.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position/>
-</item>
-<item historyLabel="Professor.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position info="not_deleted" x="147" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position info="not_deleted" x="192" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position info="not_deleted" x="54" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position info="not_deleted" x="29" y="5"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position info="not_deleted" x="291" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="3">
-<position info="not_deleted" x="337" y="0"/>
-</item>
-<item historyLabel="Pessoa.java" index="7">
-<position info="not_deleted" x="14" y="0"/>
-</item>
-<item historyLabel="Pne.java" index="5">
-<position info="not_deleted" x="36" y="0"/>
-</item>
-<item historyLabel="Ru.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Ru.java" index="8">
-<position/>
-</item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="73" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="74" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="133" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="189" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="244" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="295" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="387" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="620" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="626" y="0"/>
 </item>
-<item historyLabel="Professor.java" index="6">
+<item historyLabel="Professor.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="4" y="0"/>
 </item>
-<item historyLabel="Pessoa.java" index="7">
+<item historyLabel="Pessoa.java" index="1">
 <position info="not_deleted" x="12" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="444" y="0"/>
 </item>
-<item historyLabel="Pessoa.java" index="7">
+<item historyLabel="Pessoa.java" index="1">
 <position info="not_deleted" x="177" y="19"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="23" y="0"/>
 </item>
-<item historyLabel="Pessoa.java" index="7">
+<item historyLabel="Pessoa.java" index="1">
 <position info="not_deleted" x="360" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="23" y="0"/>
 </item>
-<item historyLabel="Pessoa.java" index="9">
+<item historyLabel="Pessoa.java" index="3">
 <position info="not_deleted" x="360" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="497" y="0"/>
 </item>
-<item historyLabel="Ru.java" index="8">
+<item historyLabel="Ru.java" index="2">
 <position info="not_deleted" x="426" y="17"/>
 </item>
-<item historyLabel="OlaMundo.java" index="10">
+<item historyLabel="OlaMundo.java" index="4">
 <position info="not_deleted" x="112" y="0"/>
 </item>
-<item historyLabel="Pessoa.java" index="11">
+<item historyLabel="Pessoa.java" index="5">
 <position info="not_deleted" x="360" y="0"/>
 </item>
-<item active="true" historyLabel="OlaMundo.java" index="10">
+<item historyLabel="OlaMundo.java" index="4">
 <position info="not_deleted" x="112" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="826" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="21" y="1"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="707" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="193" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="225" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="329" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="704" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="526" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="576" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="591" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="735" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="777" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="786" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="815" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="486" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="447" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="486" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="480" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="415" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="6">
+<position info="not_deleted" x="357" y="0"/>
+</item>
+<item historyLabel="GuestAgent.java" index="7">
+<position info="not_deleted" x="1761" y="0"/>
+</item>
+<item historyLabel="HostAgent.java" index="8">
+<position info="not_deleted" x="1761" y="0"/>
+</item>
+<item historyLabel="HostUIFrame.java" index="9">
+<position info="not_deleted" x="66" y="0"/>
+</item>
+<item historyLabel="OlaMundo.java" index="10">
+<position info="not_deleted" x="137" y="0"/>
+</item>
+<item historyLabel="CompradorDeLivros.java" index="11">
+<position info="not_deleted" x="1" y="0"/>
+</item>
+<item active="true" historyLabel="OlaMundo.java" index="10">
+<position info="not_deleted" x="210" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -459,6 +482,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HostUIFrame.java" tooltip="primeiroProjetoEmMultiAgentes/src/festa/HostUIFrame.java">
+<persistable path="/primeiroProjetoEmMultiAgentes/src/festa/HostUIFrame.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HostAgent.java" tooltip="primeiroProjetoEmMultiAgentes/src/festa/HostAgent.java">
+<persistable path="/primeiroProjetoEmMultiAgentes/src/festa/HostAgent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GuestAgent.java" tooltip="primeiroProjetoEmMultiAgentes/src/festa/GuestAgent.java">
+<persistable path="/primeiroProjetoEmMultiAgentes/src/festa/GuestAgent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CompradorDeLivros.java" tooltip="primeiroProjetoEmMultiAgentes/src/miniLeilao/CompradorDeLivros.java">
+<persistable path="/primeiroProjetoEmMultiAgentes/src/miniLeilao/CompradorDeLivros.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ru.java" tooltip="primeiroProjetoEmMultiAgentes/src/hello/Ru.java">
 <persistable path="/primeiroProjetoEmMultiAgentes/src/hello/Ru.java"/>
 </file>

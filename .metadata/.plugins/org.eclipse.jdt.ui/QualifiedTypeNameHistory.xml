@@ -3,4 +3,6 @@
 <fullyQualifiedTypeName name="java.lang.Package"/>
 <fullyQualifiedTypeName name="hello.Pessoa"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="jade.core.Agent"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
 </qualifiedTypeNameHistroy>

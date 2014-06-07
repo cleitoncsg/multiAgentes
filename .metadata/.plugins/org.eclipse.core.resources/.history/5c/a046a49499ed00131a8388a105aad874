@@ -1,0 +1,10 @@
+package vai;
+
+public class Pessoa {
+
+	private int soma(Aluno aluno){
+		return aluno.a + aluno.b + aluno.c + aluno.d + aluno.e + aluno.f + aluno.g aluno.h;
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package vai;
+
+public class Pessoa {
+
+	private int soma(int a, int b, int c, int d, int e, int f, int g, int h){
+		return a + b + c + d + e + f + g + h;
+	}
+	
+	
+	private int soma2(Aluno aluno){
+		return aluno.a + aluno.b + aluno.c + aluno.d + aluno.e + aluno.h;
+	}
+}
