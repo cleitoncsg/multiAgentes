@@ -1,0 +1,44 @@
+package robo;
+
+import java.awt.datatransfer.DataFlavor;
+
+import jade.core.*;
+import jade.domain.FIPAAgentManagement.DFAgentDescription;
+
+public class CompradorDeLivros extends Agent{
+	
+	private double correlacaoLinear = 0.9;
+	
+	protected void setup(){
+		System.out.println("Olá! Sou o analisador"+getLocalName()+"Quero registrar a correlacao!");
+		DFAgentDescription descricaoAgente = new DFAgentDescription();
+		descricaoAgente.setName(this.getAID()); //Registra o nome do agente no DF
+		
+		ServiceDescriptor servicoMetodoNumerico = new ServiceDescriptor();
+		//servicoMetodoNumerico.setType("Metodo numerico");
+		servicoMetodoNumerico.setName("Correlacao Linear");
+		
+		descricaoAgente.addServices(servicoMetodoNumerico);
+		
+		
+		/*
+		System.out.println("Olá! Sou o analisador"+getLocalName()+"Quero obter a correlacao!");
+		Object[] argumento = getArguments();
+		
+		if(argumento!= null && argumento.length > 0){
+			correlacaoLinear = (String) argumento[0];
+			System.out.println("Pretendo obter a correlacao"+correlacaoLinear);
+		}
+		else{
+			System.out.println("Não existe correlação registrada!");
+			doDelete();
+		}
+		*/
+		
+	}
+	
+	protected void takeDown(){
+		System.out.println("Agente analisador+"+getAID().getName()+"está finalizado!");
+		
+	}
+}

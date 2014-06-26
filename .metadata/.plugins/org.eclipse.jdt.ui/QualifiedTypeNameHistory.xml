@@ -5,4 +5,10 @@
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="jade.core.Agent"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.awt.datatransfer.DataFlavor"/>
+<fullyQualifiedTypeName name="jade.domain.FIPAAgentManagement.DFAgentDescription"/>
+<fullyQualifiedTypeName name="jade.core.Service"/>
+<fullyQualifiedTypeName name="jade.core.ServiceDescriptor"/>
+<fullyQualifiedTypeName name="jade.domain.DFService"/>
+<fullyQualifiedTypeName name="jade.domain.FIPAException"/>
 </qualifiedTypeNameHistroy>

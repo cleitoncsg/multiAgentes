@@ -1,0 +1,32 @@
+package robo;
+
+import jade.core.*;
+
+public class CompradorDeLivros extends Agent{
+	
+	private double correlacaoLinear = 0.9;
+	
+	protected void setup(){
+		
+		
+		/*
+		System.out.println("Olá! Sou o analisador"+getLocalName()+"Quero obter a correlacao!");
+		Object[] argumento = getArguments();
+		
+		if(argumento!= null && argumento.length > 0){
+			correlacaoLinear = (String) argumento[0];
+			System.out.println("Pretendo obter a correlacao"+correlacaoLinear);
+		}
+		else{
+			System.out.println("Não existe correlação registrada!");
+			doDelete();
+		}
+		*/
+		
+	}
+	
+	protected void takeDown(){
+		System.out.println("Agente analisador+"+getAID().getName()+"está finalizado!");
+		
+	}
+}
